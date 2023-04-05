@@ -1,0 +1,344 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
+header .logo {
+  height: 25px;
+  width: 70px;
+  position: absolute;
+  left: 2rem;
+}
+header .left {
+  margin-left: 2rem;
+  justify-content: space-between;
+}
+header .left .a2 {
+  margin-left: 2rem;
+}
+header .right {
+  margin-left: 12rem;
+  float: right;
+  display: flex;
+}
+header .right .a3 {
+  margin-right: 2rem;
+}
+header form .place {
+  border-color: rgb(240, 105, 56);
+}
+header form .b1 {
+  position: absolute;
+  right: 16rem;
+  border-color: rgb(240, 105, 56);
+  width: 70px;
+  border-radius: 20px;
+  color: rgb(240, 105, 56);
+  font-weight: bold;
+}
+header form .b1:hover {
+  background: rgb(240, 105, 56);
+  color: white;
+}
+header form .b2 {
+  margin-left: 7rem;
+  background: rgb(240, 105, 56);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 7px;
+  font-weight: bolder;
+}
+header form .b2:hover {
+  background: orangered;
+}
+header form .a4 {
+  position: absolute;
+  right: 1.5rem;
+}
+header .dropdown-toggle {
+  background: none;
+  border: none;
+  color: #333;
+}
+
+.f1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.pp1 {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 7rem;
+  color: rgb(240, 105, 56);
+  margin-bottom: 4rem;
+}
+
+.father .fimage {
+  margin-left: 8rem;
+}
+.father .mega {
+  height: 100px;
+  width: 350px;
+  margin-left: 15rem;
+  transform: translateY(-4rem);
+  font-size: small;
+}
+.father .mega .mega, .father .mega a {
+  color: rgb(240, 105, 56);
+}
+.father .mega span {
+  color: rgb(240, 105, 56);
+  font-size: large;
+  transform: translateY(-4rem);
+}
+
+.father2 .fimage2 {
+  margin-left: 50rem;
+  transform: translateY(-31.8rem);
+}
+.father2 .mega2 {
+  height: 100px;
+  width: 350px;
+  margin-left: 57rem;
+  transform: translateY(-35.5rem);
+  font-size: small;
+}
+.father2 .mega2 .mega2, .father2 .mega2 a {
+  color: rgb(240, 105, 56);
+}
+.father2 .mega2 span {
+  color: rgb(240, 105, 56);
+  font-size: large;
+  transform: translateY(-4rem);
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+}
+
+.drop {
+  justify-content: center;
+  transform: translateY(-20rem);
+}
+
+.kilo {
+  text-align: center;
+  color: rgb(240, 105, 56);
+  transform: translateY(-12rem);
+  margin-left: 12rem;
+}
+
+.grand {
+  margin: 2rem;
+}
+.grand span {
+  color: rgb(240, 105, 56);
+  font-weight: bold;
+  font-size: large;
+}
+
+.father3 {
+  display: flex;
+  margin-left: 3rem;
+  font-size: small;
+}
+.father3 .fimage3 {
+  transform: translateX(-4rem);
+}
+.father3 .mega3 {
+  margin-left: 2rem;
+  transform: translateX(-4rem);
+}
+
+.book {
+  height: 25rem;
+  background: aquamarine;
+  align-items: center;
+  border-top: dotted 1px black;
+  margin-top: 4rem;
+}
+.book .showcase {
+  align-items: center;
+  transform: translateY(2.5rem);
+}
+.book .poo {
+  height: 15rem;
+  width: 38%;
+  background: yellow;
+  margin-left: 52rem;
+  transform: translateY(-16rem);
+}
+.book .poo .poo, .book .poo h1 {
+  color: rgb(240, 105, 56);
+}
+.book .poo .kmm {
+  font-size: larger;
+  color: rgb(240, 105, 56);
+}
+.book .poo .appstore {
+  margin-left: 2rem;
+}
+
+.hii {
+  text-align: center;
+  color: rgb(240, 105, 56);
+  margin-top: 13rem;
+  margin-bottom: 3rem;
+}
+
+.father5 {
+  height: 34rem;
+  background: rgb(223, 224, 226);
+}
+.father5 .row1 {
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+.father5 .row1 .child {
+  margin-left: 1rem;
+}
+.father5 .father5, .father5 h3 {
+  text-align: center;
+  color: rgb(240, 105, 56);
+  margin-top: 2rem;
+}
+.father5 .row2 {
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+.father5 .row2 .child2 {
+  margin-left: 1rem;
+}
+.father5 .row3 {
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+.father5 .row3 .child4 {
+  margin-left: 1rem;
+}
+
+.aside-master .aside-left {
+  margin-top: 24rem;
+  height: 13rem;
+  width: 40%;
+  transform: translateY(-1rem);
+  margin-left: 5rem;
+}
+.aside-master .aside-left .aside-left, .aside-master .aside-left h1 {
+  color: rgb(240, 105, 56);
+  margin-bottom: 2rem;
+}
+.aside-master .aside-left .aside-left .aside-left, .aside-master .aside-left .aside-left p, .aside-master .aside-left h1 .aside-left, .aside-master .aside-left h1 p {
+  font-size: large;
+}
+.aside-master .aside-right {
+  margin-left: 49rem;
+  height: 13rem;
+  width: 40%;
+  transform: translateY(-24rem);
+}
+
+.red {
+  height: 80rem;
+  background: bisque;
+}
+
+.button2 {
+  text-align: center;
+  background: rgb(240, 105, 56);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 7px;
+  font-weight: bolder;
+  margin-left: 40rem;
+  transform: translateY(-4rem);
+  width: 160px;
+}
+
+.button2:hover {
+  background: orangered;
+}
+
+footer .all {
+  display: flex;
+  justify-content: center;
+}
+footer .all .all, footer .all img {
+  margin-left: 1.4rem;
+  margin-top: 1.4rem;
+}
+footer footer, footer h3 {
+  text-align: center;
+  color: rgb(240, 105, 56);
+  transform: translateX(1.3rem);
+}
+footer .fdiv {
+  margin-left: 7rem;
+  margin-top: 4rem;
+  transform: translateY(3rem);
+}
+footer .fdiv .fdiv, footer .fdiv p {
+  margin-top: 2rem;
+  font-size: 14px;
+}
+footer .divlast {
+  display: flex;
+  margin-left: 30rem;
+}
+footer .divlast .lastp {
+  font-size: 14px;
+  margin-left: 5rem;
+  transform: translateY(-7rem);
+}
+footer .divlast .lastp span {
+  color: rgb(240, 105, 56);
+  font-weight: 900;
+}
+footer .social {
+  margin-left: 48rem;
+  transform: translateY(-6rem);
+}
+footer .social .social, footer .social img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+footer .graph {
+  font-weight: lighter;
+  font-size: small;
+  margin-left: 62rem;
+  transform: translateY(-8rem);
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .all, .fdiv, .divlast, .socal, .graph {
+    display: grid;
+  }
+}/*# sourceMappingURL=style.css.map */
